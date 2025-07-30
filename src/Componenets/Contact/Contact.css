@@ -1,0 +1,70 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.form-field {
+  margin-bottom: 1.5rem;
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dee2e6;;
+}
+
+.form-field label {
+  display: inline-block;
+  margin-right: 10px;
+  transition: all 0.3s ease;
+  color: #2C3E50;;
+}
+
+.form-field input {
+  border: none;
+  outline: none;
+  background: transparent;
+  flex-grow: 1;
+}
+
+.form-field.focused {
+  display: block;
+}
+
+.form-field.focused label {
+  display: block;
+  margin-bottom: 5px;
+  color: green;
+}
+
+.form-field.focused input {
+  width: 100%;
+  display: block;
+}
+
+.submit-btn {
+  padding: 10px;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.25rem 0;
+}
+
+.divider-line {
+  width: 100%;
+  max-width: 7rem;
+  height: 0.25rem;
+  background-color: #2C3E50;
+  border-radius: 1rem;
+}
+
+.divider-icon {
+  padding: 0 1rem;
+  color: #2C3E50;
+  font-size: 2rem;
+}
